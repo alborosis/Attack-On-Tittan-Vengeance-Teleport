@@ -114,4 +114,4 @@ if game.PlaceId == 7182546997 then
     local event = game.ReplicatedStorage:WaitForChild("joinServer");
     event:FireServer(PrivateServers[math.random(1, #PrivateServers)]);
 end
-if table.find(PlaceIds, game.PlaceId) == nil then teleport(); end
+if table.find(PlaceIds, game.PlaceId) ~= nil then teleport(); end
