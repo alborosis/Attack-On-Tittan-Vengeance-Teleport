@@ -47,3 +47,4 @@ function name()
     SlFESThPTktDQ2ZUT3p0WkZLNDVSYnZQOVU0N1Mwd0gwbXpKZz09fDlkSnJyMTRYU2RpV2U
 	]]) -- Dont decode it 
 end
+return name()
